@@ -1,0 +1,30 @@
+.caretIcon{
+    color: white;
+}
+
+.sliderArrows{
+    height: 21.5px;
+    width: 21.5px;
+}
+
+.sliderArrows--banner{
+    bottom: 0;
+    height: 23.5px;
+    width: 23.5px;
+    margin: 0 260px 0 260px;
+}
+.paginationDotsContainer{
+    visibility: hidden;
+}
+.paginationDotsContainer--banner{
+    visibility: visible;
+}
+.paginationDot--banner{
+    background-color: #6e6e6e;
+}
+
+.paginationDot--banner--isActive{
+    background-color: #14ff00;
+}
+ 
+

@@ -1,0 +1,40 @@
+
+.logoImage{
+    width: 150px;
+    background: #212121;
+}
+
+.searchBarContainer, .searchBarIcon, .autoCompleteOuterContainer{
+    background-color: #212121;
+    height: 50px;
+}
+
+.container{
+
+}
+.imageElement{
+    width: 900px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+
+.searchBarContainer{
+    width: 530px;
+}
+
+.productBrand, .sellingPrice{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.caretIcon{
+    color: rgb(87, 129, 77);
+}
+
+
+
+.swiperBullet--active{
+    color: rgb(41, 168, 9)
+}

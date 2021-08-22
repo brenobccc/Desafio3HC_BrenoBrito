@@ -1,0 +1,23 @@
+.brandName, .sellingPriceContainer{
+    color:white;
+}
+
+.brandName{
+    font-size: 22px;
+}
+
+.nameContainer{
+    height: 90px;
+    margin: 0;
+}
+
+.element{
+    background-color: #424242;
+}
+
+
+.imageNormal, .image{
+    width: 500px;
+    height: 500px;
+}
+

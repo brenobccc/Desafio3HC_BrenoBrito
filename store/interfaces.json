@@ -1,0 +1,14 @@
+{
+    "nav-form": {
+        "component": "footerForm"
+    },
+    "nav-home": {
+        "component": "footerHome"
+    },
+    "nav-whats": {
+        "component": "footerWhats"
+    },
+    "form-page": {
+        "component": "form"
+    }
+}

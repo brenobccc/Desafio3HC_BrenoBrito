@@ -1,0 +1,26 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "nav-form",
+      "nav-home",
+      "nav-whats"
+  
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [],
+    "props": {
+      "blockClass": "footer"
+    }
+  }
+ 
+}

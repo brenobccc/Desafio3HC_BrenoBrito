@@ -1,0 +1,18 @@
+.productBrandName,.unitPrice,.unitPriceContainer{
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.productName{
+    color: white;
+}
+
+.productImage{
+    margin-left: 5px;
+}
+
+.deleteIcon{
+    margin-right: 5px;
+}

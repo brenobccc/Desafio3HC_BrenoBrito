@@ -1,0 +1,16 @@
+.openIconContainer, .cartIcon{
+    background-color: #212121;
+    
+}
+
+.minicartSummary{
+    color: white;
+}
+
+.minicartTitle{
+    color: #14ff00;
+}
+
+.closeIcon{
+    color: #14ff00;
+}

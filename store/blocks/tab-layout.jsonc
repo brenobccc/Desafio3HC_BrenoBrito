@@ -1,0 +1,124 @@
+{
+    // Tab Layout com seus respectivos conteudos
+    "tab-layout#categorias": {
+        "children": [
+            "tab-list#categorias",
+            "slider-layout#home",
+            "tab-content#categorias"
+        ],
+        "props": {
+            "blockClass": "categorias",
+            "defaultActiveTabId": "Todos"
+        }
+    },
+    "tab-list#categorias": {
+        "children": [
+            "tab-list.item#Todos",
+            "tab-list.item#Corinthians",
+            "tab-list.item#Palmeiras",
+            "tab-list.item#Signos",
+            "tab-list.item#Divertidos",
+            "tab-list.item#Guerreiros"
+        ]
+    },
+    "tab-content#categorias": {
+        "children": [
+            "tab-content.item#Todos",
+            "tab-content.item#Corinthians",
+            "tab-content.item#Palmeiras",
+            "tab-content.item#Signos",
+            "tab-content.item#Divertidos",
+            "tab-content.item#Guerreiros"
+        ]
+    },
+    "tab-list.item#Todos": {
+        "props": {
+            "tabId": "Todos",
+            "label": "Promocão",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#Corinthians": {
+        "props": {
+            "tabId": "Corinthians",
+            "label": "Corinthians"
+        }
+    },
+    "tab-list.item#Palmeiras": {
+        "props": {
+            "tabId": "Palmeiras",
+            "label": "Palmeiras"
+        }
+    },
+    "tab-list.item#Signos": {
+        "props": {
+            "tabId": "Signos",
+            "label": "Signos"
+        }
+    },
+    "tab-list.item#Divertidos": {
+        "props": {
+            "tabId": "Divertidos",
+            "label": "Divertidos"
+        }
+    },
+    "tab-list.item#Guerreiros": {
+        "props": {
+            "tabId": "Guerreiros",
+            "label": "Guerreiros"
+        }
+    },
+    "tab-content.item#Todos": {
+        "children": [
+            "flex-layout.row#TodosProdutos"
+        ],
+        "props": {
+            "tabId": "Todos"
+        }
+    },
+    "tab-content.item#Corinthians": {
+        "children": [
+            "flex-layout.row#Corinthians"
+        ],
+        "props": {
+            "tabId": "Corinthians"
+        }
+    },
+    "tab-content.item#Palmeiras": {
+        "children": [
+            "flex-layout.row#Palmeiras"
+        ],
+        "props": {
+            "tabId": "Palmeiras"
+        }
+    },
+    "tab-content.item#Signos": {
+        "children": [
+            "flex-layout.row#Signos"
+        ],
+        "props": {
+            "tabId": "Signos"
+        }
+    },
+    "tab-content.item#Divertidos": {
+        "children": [
+            "flex-layout.row#Divertidos"
+        ],
+        "props": {
+            "tabId": "Divertidos"
+        }
+    },
+    "tab-content.item#Guerreiros": {
+        "children": [
+            "flex-layout.row#Guerreiros"
+        ],
+        "props": {
+            "tabId": "Guerreiros"
+        }
+    },
+    "flex-layout.row#home": {
+        "children": [
+            "slider-layout#home"
+        ]
+    }
+}

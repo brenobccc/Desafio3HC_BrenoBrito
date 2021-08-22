@@ -1,0 +1,159 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#categorias"
+    ]
+  },
+  "flex-layout.row#categorias": {
+    "props": {
+      "blockClass": "sticky-header-categorias"
+    },
+    "children": [
+      "tab-layout#categorias"
+    ]
+  },
+  // Abaixo todos os layouts para puxar os produtos de todas as categorias, foram utilizados CustomQuerys
+  "flex-layout.row#TodosProdutos": {
+    "children": [
+      "search-result-layout.customQuery#Todos"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "search-result-layout.customQuery#Todos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "kit upmedal",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "flex-layout.row#Corinthians": {
+    "children": [
+      "search-result-layout.customQuery#Corinthians"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "search-result-layout.customQuery#Corinthians": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Corinthians",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "flex-layout.row#Palmeiras": {
+    "children": [
+      "search-result-layout.customQuery#Palmeiras"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "search-result-layout.customQuery#Palmeiras": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Palmeiras",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "flex-layout.row#Signos": {
+    "children": [
+      "search-result-layout.customQuery#Signos"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "flex-layout.row#Divertidos": {
+    "children": [
+      "search-result-layout.customQuery#Divertidos"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "flex-layout.row#Guerreiros": {
+    "children": [
+      "search-result-layout.customQuery#Guerreiros"
+    ],
+    "props": {
+      "blockClass": "fundo2"
+    }
+  },
+  "search-result-layout.customQuery#Signos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Signo",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "search-result-layout.customQuery#Divertidos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Divertido",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "search-result-layout.customQuery#Guerreiros": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Guerreiro",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home"
+    ]
+  },
+  "search-result-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#resultsHome"
+    ]
+  },
+  "flex-layout.row#resultsHome": {
+    "children": [
+      "flex-layout.col#search"
+    ]
+  }
+}

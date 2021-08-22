@@ -1,0 +1,54 @@
+{
+    "slider-layout#home": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "banner"
+        },
+        "children": [
+            "image#banner1",
+            "image#banner2"
+        ]
+    },
+    //#BANNER 1
+    "image#banner1": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf"
+        }
+    },
+    "image#banner2": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e"
+        }
+    }
+    /*,
+    "slider-layout#tab-layout": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 8,
+                "tablet": 1,
+                "phone": 1
+            },
+            "blockClass": "slideArrows"
+        },
+        "children": [
+            "tab-list.item#home",
+            "tab-list.item#home1",
+            "tab-list.item#home2",
+            "tab-list.item#home3",
+            "tab-list.item#home4",
+            "tab-list.item#home5",
+            "tab-list.item#home6",
+            "tab-list.item#home7",
+            "tab-list.item#home8",
+            "tab-list.item#home9",
+            "tab-list.item#home10"
+        ]
+        
+    }*/
+}

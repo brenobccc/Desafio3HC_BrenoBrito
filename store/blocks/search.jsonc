@@ -1,0 +1,70 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-not-found-layout"
+    ]
+  },
+  // Layout onde é organizado todos os componentes da página de busca
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "showMore"
+    }
+  },
+  // Componentes que renderizam o total de produtos e a lista com os tipos de ordenação do resultado
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  // Renderizando componentes dos produtos
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "VER DETALHES"
+    }
+  }
+}
