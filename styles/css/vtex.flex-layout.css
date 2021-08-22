@@ -1,4 +1,7 @@
 
+.flexRowContent--linha{
+    background: #212121;
+}
 
 .flexRowContent--cart{
 height:250px;
@@ -14,7 +17,6 @@ margin-bottom: 10px;
     
     background: #212121;
 }
-
 
 
 

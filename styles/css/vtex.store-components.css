@@ -6,12 +6,22 @@
 
 .searchBarContainer, .searchBarIcon, .autoCompleteOuterContainer{
     background-color: #212121;
-    height: 50px;
+    
 }
 
-.container{
-
+.searchBarIcon{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    width: 50px;
+    margin: 0;
 }
+
+.searchIcon{
+    color: #14ff00;
+}
+
+
 .imageElement{
     width: 900px;
     border: 0px solid transparent;
@@ -21,7 +31,7 @@
 
 
 .searchBarContainer{
-    width: 530px;
+    width: 520px;
 }
 
 .productBrand, .sellingPrice{
